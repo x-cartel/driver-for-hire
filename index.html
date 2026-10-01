@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DriveNow - Professional Driver For Hire</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">DriveNow</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Professional Drivers On Demand</h1>
+            <p>Safe, reliable, and professional driving services for your needs</p>
+            <a href="#booking" class="cta-btn">Book a Driver Now</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🚗</div>
+                    <h3>City Rides</h3>
+                    <p>Get around town safely and on time with our professional drivers</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">✈️</div>
+                    <h3>Airport Transfers</h3>
+                    <p>Reliable airport pickup and drop-off with flight tracking</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💼</div>
+                    <h3>Corporate Transport</h3>
+                    <p>Professional drivers for business meetings and events</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎉</div>
+                    <h3>Event Transportation</h3>
+                    <p>Dedicated drivers for weddings, parties, and special occasions</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👨‍👩‍👧‍👦</div>
+                    <h3>Family Trips</h3>
+                    <p>Safe and comfortable transportation for families</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛂</div>
+                    <h3>Long Distance</h3>
+                    <p>Interstate and cross-country driving services</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2>Pricing</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Standard</h3>
+                    <p class="price">$25/hour</p>
+                    <ul>
+                        <li>Local city rides</li>
+                        <li>Professional driver</li>
+                        <li>Clean vehicle</li>
+                        <li>Insurance included</li>
+                    </ul>
+                    <button class="booking-btn">Book Now</button>
+                </div>
+                <div class="pricing-card featured">
+                    <h3>Premium</h3>
+                    <p class="price">$45/hour</p>
+                    <ul>
+                        <li>All Standard features</li>
+                        <li>Luxury vehicle option</li>
+                        <li>Priority booking</li>
+                        <li>Complimentary refreshments</li>
+                    </ul>
+                    <button class="booking-btn">Book Now</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <p class="price">Custom</p>
+                    <ul>
+                        <li>Dedicated drivers</li>
+                        <li>Fleet management</li>
+                        <li>Monthly billing</li>
+                        <li>24/7 support</li>
+                    </ul>
+                    <button class="booking-btn">Contact Sales</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking">
+        <div class="container">
+            <h2>Book Your Driver</h2>
+            <form class="booking-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="pickup">Pickup Location</label>
+                    <input type="text" id="pickup" name="pickup" required>
+                </div>
+                <div class="form-group">
+                    <label for="dropoff">Drop-off Location</label>
+                    <input type="text" id="dropoff" name="dropoff" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Date & Time</label>
+                    <input type="datetime-local" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">Service Type</label>
+                    <select id="service" name="service" required>
+                        <option value="">Select a service</option>
+                        <option value="city">City Ride</option>
+                        <option value="airport">Airport Transfer</option>
+                        <option value="corporate">Corporate Transport</option>
+                        <option value="event">Event Transportation</option>
+                        <option value="family">Family Trip</option>
+                        <option value="longdistance">Long Distance</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-btn">Request Driver</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"DriveNow drivers are always professional and punctual. Highly recommended!"</p>
+                    <p class="author">- Sarah Johnson</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Best airport transfer service. Clean car and friendly driver. Will book again!"</p>
+                    <p class="author">- Michael Chen</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Used for my wedding day. Everything was perfect. Thank you DriveNow!"</p>
+                    <p class="author">- Emma Williams</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety Section -->
+    <section class="safety">
+        <div class="container">
+            <h2>Your Safety, Our Priority</h2>
+            <div class="safety-features">
+                <div class="safety-item">
+                    <h3>🔍 Background Checked</h3>
+                    <p>All drivers undergo thorough background verification</p>
+                </div>
+                <div class="safety-item">
+                    <h3>🛡️ Insured</h3>
+                    <p>Full insurance coverage on all rides</p>
+                </div>
+                <div class="safety-item">
+                    <h3>📱 Real-time Tracking</h3>
+                    <p>Share your ride details with family and friends</p>
+                </div>
+                <div class="safety-item">
+                    <h3>⭐ Rated Drivers</h3>
+                    <p>Professional drivers with excellent customer ratings</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>📞 Phone</h3>
+                    <p>1-800-DRIVE-NOW (1-800-374-8366)</p>
+                </div>
+                <div class="contact-item">
+                    <h3>📧 Email</h3>
+                    <p>support@drivenow.com</p>
+                </div>
+                <div class="contact-item">
+                    <h3>🕐 Hours</h3>
+                    <p>24/7 Available</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 DriveNow. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">FAQ</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
